@@ -1,0 +1,137 @@
+html {
+    background-color: #EFEFEF;
+    padding: 0;
+    width: 100%;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    background-color: #185ADB;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.header-content {
+    margin: 0 auto;
+    font-size: 40px;
+    width: 100%;
+    color: #EFEFEF;
+    padding-left: 3%;
+}
+
+.topnav {
+    width: 100%;
+    background-color: #FFC947;
+    overflow: hidden;
+    padding-left: 3%;
+    margin-left: -.5%;
+}
+
+.topnav a {
+    float: left;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+}
+
+#home h3 {
+    text-align: center;
+    font-size: 25px;
+    border-bottom: 3px solid black;
+    display: inline-block;
+    width: 50%;
+    margin-left: 25%;
+}
+
+#home p {
+    margin-left: 10%;
+    margin-right:10%
+}
+
+#projects h3 {
+    text-align: center;
+    font-size: 25px;
+    border-bottom: 3px solid black;
+    display: inline-block;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.projects-table {
+    margin-left: 25%;
+    margin-right: 25%;
+    
+}
+
+.projects-table th, tr, td {
+    padding: 10px;
+    border: 2px solid black
+}
+
+.projects-table tr:nth-child(odd) {
+    background-color: #FFC947;
+}
+
+.projects-table th {
+    background-color: #185ADB;
+    color: white
+}
+
+.about-me h3 {
+    text-align: center;
+    font-size: 25px;
+    border-bottom: 3px solid black;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.professional_img {
+    padding-left: 2.5%;
+    float: left;
+}
+
+.professional_img img{
+    height: 500px;
+    width: 400px;
+    margin-left:10%;
+    margin-right:40px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+}
+
+#about-me-content {
+    float: right;
+    display: block;
+    text-align: center;
+}
+
+.about-me-content p {
+    float: left;
+    width: 50%;
+    margin-left: 30px;
+}
+
+.contact-me h3 {
+    text-align: center;
+    font-size: 25px;
+    border-bottom: 3px solid black;
+    display: inline-block;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.contact-me p {
+    text-align: center;
+}
+
+body {
+    margin: 0;
+}
