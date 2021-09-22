@@ -53,7 +53,7 @@ html {
     background-color: #ddd;
 }
 
-#home h3 {
+.home h3 {
     text-align: center;
     font-size: 25px;
     border-bottom: 3px solid black;
@@ -63,7 +63,7 @@ html {
     margin-top: 70px;
 }
 
-#home p {
+.home p {
     margin-left: 10%;
     margin-right:10%
 }
@@ -129,19 +129,12 @@ html {
     border-width: 5px;
 }
 
-#about-me-content {
-    float: right;
-    display: block;
+.about-me-content {
     text-align: center;
 }
 
 .about-me-content p {
-    float: left;
-    width: 50%;
-    margin-left: 5%;
-    align-content: center;
-    margin-top: 5%;
-    position: relative;
+    margin-top: 10%;
 }
 
 .contact-me h3 {
