@@ -68,7 +68,7 @@ html {
     margin-right:10%
 }
 
-#projects h3 {
+.projects h3 {
     text-align: center;
     font-size: 25px;
     border-bottom: 3px solid black;
@@ -77,10 +77,19 @@ html {
     margin-left: 25%;
 }
 
+.projects p {
+    text-align: center;
+}
+
 .projects-table {
     margin-left: 25%;
     margin-right: 25%;
     
+}
+
+.projects-table a {
+    text-decoration: none;
+    color: black;
 }
 
 .projects-table th, tr, td {
