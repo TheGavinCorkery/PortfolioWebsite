@@ -60,7 +60,7 @@ html {
     display: inline-block;
     width: 50%;
     margin-left: 25%;
-    margin-top: 70px;
+    margin-top: 5%;
 }
 
 .home p {
@@ -75,6 +75,7 @@ html {
     display: inline-block;
     width: 50%;
     margin-left: 25%;
+    margin-top: 5%;
 }
 
 .projects p {
@@ -112,6 +113,7 @@ html {
     border-bottom: 3px solid black;
     width: 50%;
     margin-left: 25%;
+    margin-top: 5%;
 }
 
 .professional_img {
