@@ -2,25 +2,31 @@
 <html>
     <head>
         <title>Gavin Corkery Portfolio</title>
-        <link rel="stylesheet" type = "text/css" href="styles/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" type = "text/css" href="styles/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-        <div class = "topnav">
-            <div class = "nav-logo">
-                <h2>Gavin Corkery Portfolio</h2>
-            </div>
-            <div class="nav-links">
-                <a href="#home"><strong>Home</strong></a>
-                <a href="#projects"><strong>Projects</strong></a>
-                <a href="#about-me"><strong>About Me</strong></a>
-                <a href="#contact-me"><strong>Contact Me</strong></a>
-            </div>
-        </div>
-
+            
+            <nav class = "navbar navbar-expand-lg navbar-dark bg-primary">
+                <div class = "nav-brand">
+                    <h2>Gavin Corkery</h2>
+                </div>
+                    <button class = "navbar-toggler" type = "button" data-toggle = "collapse" data-target = "#navbarContent"
+                    aria-controls = "navbarContent" aria-expanded = "false"><i class="fa fa-bars"></i></button>
+                <div class = "collapse navbar-collapse" id = "navbarContent">
+                    
+                        <a class = "nav-link" href="#home">Home</a>
+                        <a class = "nav-link" href="#projects">Projects</a>
+                        <a class = "nav-link" href="#about-me">About Me</a>
+                        <a class = "nav-link" href="#contact-me">Contact Me</a>
+                    
+                </div>
+            </nav>
         <!--Home Section Starts Here-->
         <div id = "home" class = "home">
             <h3>Home</h3>
@@ -110,6 +116,8 @@
             <p>LinkedIn: <a href="https://www.linkedin.com/in/gavin-corkery-3aa56a180/">Click Here</a></p>
         </div>
         <!--Contact Section Ends Here-->
-
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     </body>
 </html>
