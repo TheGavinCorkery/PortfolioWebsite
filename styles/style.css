@@ -3,6 +3,13 @@
     text-align: center !important;
 }
 
+.project-picture {
+    height: 100%;
+    width: 100%;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
 .projects-table a {
     text-decoration: none;
     color: black;

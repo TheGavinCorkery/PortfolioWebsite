@@ -1,5 +1,10 @@
 {
     "cSpell.words": [
         "Corkery"
-    ]
+    ],
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#263121",
+        "titleBar.activeBackground": "#35442E",
+        "titleBar.activeForeground": "#FAFCFA"
+    }
 }
